@@ -4,11 +4,11 @@ public class heart {
 
         int boy=6,girl=7;
 
-        for(int b=0;b<=boy;b++){
-            for (int g=0;g<=girl;g++){
+        for(int b=0;b<boy;b++){
+            for (int g=0;g<girl;g++){
                 if( b==0&& g%3!=0){System.out.print(" * ");
 
-            } else if (b==1 && g%3!=0){
+            } else if (b==1 && g%3==0){
 
                System.out.print(" * ");
            }
@@ -21,12 +21,12 @@ public class heart {
                         System.out.print(" * ");
                     }
                 else {
-                    System.out.print(" ");
+                    System.out.print("  ");
                 }
 
 
                 }
-//            System.out.print("\n");
+       System.out.println();
 
 
             }
